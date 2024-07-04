@@ -13,7 +13,6 @@ public class j09BinarySearch {
     }
 
 
-
 // Ceiling -> Smallest number greater or equal to the target
 
     static int BinarySearch(int[] arr, int target) {
@@ -27,7 +26,7 @@ public class j09BinarySearch {
             } else if (target > arr[mid]) {
                 start = mid + 1;
             } else {
-//               answer found
+                // answer found
                 return mid;
             }
         }
