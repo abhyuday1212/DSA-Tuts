@@ -246,7 +246,7 @@ public class SubSequence {
         sum = sum + orgArr[index];
         subsetSum(newArr, orgArr, sum, index + 1);
 
-        //! backtracking that's why removing the unwanted results.
+        //! Recursion.backtracking that's why removing the unwanted results.
         //* Clear the result of the newArr and the sum as we are moving up-word we need our old values to be back.
         newArr.removeLast();
         sum = sum - orgArr[index];
@@ -338,7 +338,7 @@ public class SubSequence {
 
         List<List<Integer>> takenAns = combinationSum(newArr, orgArr, target, sum + orgArr[index], index + 1);
 
-        //backtracking
+        //Recursion.backtracking
         newArr.remove(newArr.size() - 1);
         List<List<Integer>> notTakenAns = combinationSum(newArr, orgArr, target, sum, index + 1);
 
