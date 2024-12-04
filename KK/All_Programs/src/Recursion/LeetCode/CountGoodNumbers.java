@@ -1,6 +1,4 @@
-package RecursionQuests.LeetCode;
-
-import java.security.spec.RSAOtherPrimeInfo;
+package Recursion.LeetCode;
 
 public class CountGoodNumbers {
 

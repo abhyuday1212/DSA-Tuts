@@ -1,4 +1,4 @@
-package CollegeWallahRecusion;
+package Recursion.CollegeWallahRecusion;
 
 public class J01PrintMultiple {
 

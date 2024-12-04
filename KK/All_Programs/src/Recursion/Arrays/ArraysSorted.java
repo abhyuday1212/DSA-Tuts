@@ -1,4 +1,4 @@
-package RecursionQuests.Arrays;
+package Recursion.Arrays;
 
 public class ArraysSorted {
     public static void main(String[] args) {

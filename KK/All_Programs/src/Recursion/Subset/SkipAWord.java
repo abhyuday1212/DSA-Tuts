@@ -1,4 +1,4 @@
-package RecursionQuests.Permutations;
+package Recursion.Subset;
 
 public class SkipAWord {
     public static void main(String[] args) {

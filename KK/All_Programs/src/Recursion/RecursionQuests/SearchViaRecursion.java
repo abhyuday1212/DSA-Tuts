@@ -1,6 +1,4 @@
-package RecursionQuests;
-
-import java.util.*;
+package Recursion.RecursionQuests;
 
 public class SearchViaRecursion {
     public static void main(String[] args) {

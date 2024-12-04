@@ -1,4 +1,4 @@
-package RecursionQuests;
+package Recursion.RecursionQuests;
 
 import java.util.ArrayList;
 

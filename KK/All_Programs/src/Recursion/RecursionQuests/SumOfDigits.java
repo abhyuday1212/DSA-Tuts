@@ -1,4 +1,4 @@
-package RecursionQuests;
+package Recursion.RecursionQuests;
 
 public class SumOfDigits {
     public static void main(String[] args) {

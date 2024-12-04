@@ -1,4 +1,4 @@
-package RecursionQuests.Permutations;
+package Recursion.Subset;
 
 import java.util.ArrayList;
 

@@ -1,6 +1,4 @@
-package RecursionQuests.LeetCode;
-
-import java.lang.Math.*;
+package Recursion.LeetCode;
 
 public class Atoi {
     public static void main(String[] args) {

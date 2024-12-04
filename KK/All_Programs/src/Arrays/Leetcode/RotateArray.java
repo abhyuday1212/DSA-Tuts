@@ -1,6 +1,4 @@
-package ArraysLeetcode;
-
-import java.util.Arrays;
+package Arrays.Leetcode;
 
 public class RotateArray {
     public static void main(String[] args) {

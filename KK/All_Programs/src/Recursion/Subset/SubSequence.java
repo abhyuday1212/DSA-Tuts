@@ -1,4 +1,4 @@
-package RecursionQuests.Permutations;
+package Recursion.Subset;
 
 // Sunsets is defined as the Permutations and combination of non-adjacent collection
 /*

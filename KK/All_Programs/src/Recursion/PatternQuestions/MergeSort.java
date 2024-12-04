@@ -1,6 +1,5 @@
-package RecursionPatternQuestions;
+package Recursion.PatternQuestions;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class MergeSort {

@@ -1,4 +1,4 @@
-package CollegeWallahRecusion;
+package Recursion.CollegeWallahRecusion;
 
 public class J04MaxInArray {
     public static void main(String[] args) {

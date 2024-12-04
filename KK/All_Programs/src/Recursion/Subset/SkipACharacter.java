@@ -1,4 +1,4 @@
-package RecursionQuests.Permutations;
+package Recursion.Subset;
 
 // Question-1
 public class SkipACharacter {

@@ -1,4 +1,4 @@
-package RecursionQuickSort;
+package Recursion.RecursionQuickSort;
 /*
 Choose any element as pivot -> after first pass -> elements that are less than the pivot will be on LHS && elements that are greater than pivot will be on RHS
 

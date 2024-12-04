@@ -1,7 +1,6 @@
-package RecursionQuests.Arrays;
+package Recursion.Arrays;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * Big problem, f(arr, target, idx )

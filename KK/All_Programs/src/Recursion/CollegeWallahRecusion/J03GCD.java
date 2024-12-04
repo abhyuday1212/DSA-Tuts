@@ -1,4 +1,4 @@
-package CollegeWallahRecusion;
+package Recursion.CollegeWallahRecusion;
 
 import java.util.Scanner;
 

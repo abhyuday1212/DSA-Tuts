@@ -1,4 +1,4 @@
-package ArraysLeetcode;
+package Arrays.Leetcode;
 
 public class RemoveDuplicated {
     public int removeDuplicates(int[] nums) {

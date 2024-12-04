@@ -1,4 +1,4 @@
-package RecursionQuests.Arrays;
+package Recursion.Arrays;
 
 public class ReverseString {
 

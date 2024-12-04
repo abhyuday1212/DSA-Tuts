@@ -1,4 +1,4 @@
-package RecursionQuests.LeetCode;
+package Recursion.LeetCode;
 
 import java.util.ArrayList;
 import java.util.List;
