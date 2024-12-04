@@ -50,11 +50,30 @@ public class SubSequence {
 //        subsetSum(list7, myArr7, 0, 0);
 
         //M-8
-        int[] myArr8 = {9, 7, 0, 7, 3, 4, 3, 2, 4, 0, 0, 4, 6, 9, 3, 3, 6, 1, 6, 2, 8, 4, 9, 4, 5, 0, 0};
-        int n = myArr8.length;
-        ArrayList<Integer> list8 = new ArrayList<>();
-        int ans = subsetTargetSum(list8, myArr8, n, 2, 0, 0, 0);
+//        int[] myArr8 = {9, 7, 0, 7, 3, 4, 3, 2, 4, 0, 0, 4, 6, 9, 3, 3, 6, 1, 6, 2, 8, 4, 9, 4, 5, 0, 0};
+//        int n = myArr8.length;
+//        ArrayList<Integer> list8 = new ArrayList<>();
+//        int ans = subsetTargetSum(list8, myArr8, n, 2, 0, 0, 0);
+//        System.out.println(ans);
+
+
+        // M-9
+//        int[] candidates = {1, 2, 1};
+//        int n = candidates.length;
+//        List<Integer> newArr = new ArrayList<>();
+//
+//        List<List<Integer>> ansList = new ArrayList<>();
+//        List<List<Integer>> ans = subsetTargetSum(newArr, candidates, n, 2, 0, 0);
+//        System.out.println(ans);
+
+
+        // M-10
+        int[] candidates = {1, 2, 1};
+        int n = candidates.length;
+        List<Integer> newArr = new ArrayList<>();
+        List<List<Integer>> ans = subsetTargetSum(newArr, candidates, n, 3, 0, 0);
         System.out.println(ans);
+
     }
 
     // M-1
@@ -89,6 +108,7 @@ public class SubSequence {
         ArrayList<String> right = subseqReturnArrayList(newStr, originalStr.substring(1));
 
         left.addAll(right);
+
 
         return left;
     }
@@ -267,5 +287,64 @@ public class SubSequence {
         count = subsetTargetSum(newArr, orgArr, n, target, sum, index + 1, count);
 
         return count;
+    }
+
+
+    // M-9
+    // * wap to return the list of ALl the subsequences possible, if the sum== target (Not counting the current character,more than 1 time)
+    static List<List<Integer>> subsetTargetSum(List<Integer> newArr, int[] orgArr, int n, int target, int sum, int index) {
+        // base case
+        // whenever your index reaches the end of the original length stop the iteration
+        // over there
+        if (index == orgArr.length) {
+            List<List<Integer>> baseResult = new ArrayList<>();
+            if (target == sum) {
+                baseResult.add(new ArrayList<>(newArr));  //Add the copy of the newArray
+                return baseResult;
+            }
+            return baseResult;
+        }
+
+        //* when you are taking and summing up & somehow you cannot add this line in the recursive function call.
+//        List<Integer> takenArr = new ArrayList<>();
+        newArr.add(orgArr[index]);
+
+        List<List<Integer>> takenAns = subsetTargetSum(newArr, orgArr, n, target, sum + orgArr[index], index + 1);
+
+        // Backtrack: remove last element : This is not needed as the takenArr is being created and not the same array is being modified
+        newArr.remove(newArr.size() - 1);
+
+        List<List<Integer>> notTakenAns = subsetTargetSum(newArr, orgArr, n, target, sum, index + 1);
+
+        takenAns.addAll(notTakenAns);
+
+        return takenAns;
+    }
+
+    // M-10
+    // * wap to return the list of ALl the subsequences possible, if the sum== target ( Counting the current character, more than 1 time)
+    static List<List<Integer>> combinationSum(List<Integer> newArr, int[] orgArr, int target, int sum, int index) {
+        if (orgArr.length == index) {
+            List<List<Integer>> baseResult = new ArrayList<>();
+            // so I want also continuously Adding the last element to the
+            if (target == sum) {
+                baseResult.add(new ArrayList<>(newArr));
+                return baseResult;
+            }
+            return baseResult;
+        }
+
+        newArr.add(orgArr[index]);
+
+        List<List<Integer>> takenAns = combinationSum(newArr, orgArr, target, sum + orgArr[index], index + 1);
+
+        //backtracking
+        newArr.remove(newArr.size() - 1);
+        List<List<Integer>> notTakenAns = combinationSum(newArr, orgArr, target, sum, index + 1);
+
+        takenAns.addAll(notTakenAns);
+
+        return takenAns;
+
     }
 }
