@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6efd4fba-ff1d-4e54-a78d-e81537befdfa" name="Changes" comment="Reformating">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/All_Programs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Leetcode/RemoveDuplicated.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Leetcode/RotateArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MathsForDSA/MagicNumb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MathsForDSA/NoOfDigits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MathsForDSA/OddEven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MathsForDSA/PowOfTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MathsForDSA/SetBits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MathsForDSA/UniqueNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MathsForDSA/isPrime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Arrays/ArraysSorted.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Arrays/LinearSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Arrays/ReverseString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Arrays/SumOfElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/CollegeWallahRecusion/J01PrintMultiple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/CollegeWallahRecusion/J02SeriesSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/CollegeWallahRecusion/J03GCD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/CollegeWallahRecusion/J04MaxInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/CombinationSum/SingleSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Intro/P1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Intro/P2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Intro/P3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/LeetCode/Atoi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/LeetCode/CountGoodNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/LeetCode/LetterCombination.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/LeetCode/LetterCombinationSolution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/LeetCode/Power_Sets_78.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/LeetCode/RemoveDuplicates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/PatternQuestions/MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/PatternQuestions/Pattern1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/PatternQuestions/Pattern2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/PatternQuestions/SelectionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Permutations/PermutationUsingRecursion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/RecursionQuests/CountZeros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/RecursionQuests/DigitProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/RecursionQuests/Factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/RecursionQuests/FindAlLLIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/RecursionQuests/P1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/RecursionQuests/ReverseANumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/RecursionQuests/RotatedArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/RecursionQuests/SearchViaRecursion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/RecursionQuests/Sorted.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/RecursionQuests/SumOfDigits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/RecursionQuickSort/RecursionQuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Subset/SkipACharacter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Subset/SkipAWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Subset/SubSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/backtracking/Ex1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/backtracking/Ex2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasics/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasics/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasics/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasics/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasics/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasics/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasics/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasics/src/ColNoFixed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasics/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasics/src/P1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasics/src/j06Max.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasics/src/j10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasics/src/j11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasics/src/j12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasics/src/j13Arraylist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasics/src/j14MultiDimension.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasics/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/SearchingSorting.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/Palindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/SortingQues.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/assign01Searching/InfiniteArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/assign01Searching/PeakInMountain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/assign01Searching/RowColMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/assign01Searching/SearchInMountain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/assign01Searching/a01Ceiling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/assign01Searching/a02Floor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/assign01Searching/a04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/j01LinearSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/j02LinearSearchStrings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/j03LinearSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/j04MinArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/j05LinearSearch2darr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/j07EvenNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/j08Wealth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/j09BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/j10OrderAgnosticBinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/recursion/P1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/sorting/BubbleSorting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/sorting/CycleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/sorting/InsertionSorting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchingSorting/src/sorting/SelectionSorting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignments/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignments/assignments.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignments/src/arrays/solution2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCodeSubmissions/solution3.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/abhyuday1212/DSA-Tuts.git&quot;,
+    &quot;accountId&quot;: &quot;1987111d-e919-44d6-9f38-39defc1ef74a&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../../../../Program Files/Java/jdk-23/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2k0JEqfQs14E5M1LoxHSiauoSlm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArraysSorted.executor": "Run",
+    "Application.Ascii.executor": "Run",
+    "Application.Atoi.executor": "Debug",
+    "Application.CombinationSum2.executor": "Debug",
+    "Application.CombinationSum3.executor": "Run",
+    "Application.CountGoodNumbers.executor": "Debug",
+    "Application.CountZeros.executor": "Run",
+    "Application.DigitProduct.executor": "Debug",
+    "Application.Ex1.executor": "Run",
+    "Application.Ex2.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.FindAlLLIndex.executor": "Run",
+    "Application.J01PrintMultiple.executor": "Run",
+    "Application.J02SeriesSum.executor": "Run",
+    "Application.J03GCD.executor": "Run",
+    "Application.J04MaxInArray.executor": "Run",
+    "Application.J1PrintMultiple.executor": "Run",
+    "Application.LetterCombination.executor": "Run",
+    "Application.LinearSearch.executor": "Run",
+    "Application.MagicNumb.executor": "Run",
+    "Application.MergeSort.executor": "Run",
+    "Application.NoOfDigits.executor": "Run",
+    "Application.OddEven.executor": "Run",
+    "Application.P1.executor": "Debug",
+    "Application.P2.executor": "Run",
+    "Application.P3.executor": "Run",
+    "Application.Pattern1.executor": "Run",
+    "Application.Pattern2.executor": "Run",
+    "Application.PermutationUsingRecursion.executor": "Debug",
+    "Application.PowOfTwo.executor": "Run",
+    "Application.Power_Sets_78.executor": "Debug",
+    "Application.RecursionQuickSort.executor": "Run",
+    "Application.RemoveDuplicates.executor": "Run",
+    "Application.ReverseANumber.executor": "Run",
+    "Application.ReverseString.executor": "Run",
+    "Application.RotateArray.executor": "Run",
+    "Application.RotatedArray.executor": "Run",
+    "Application.SearchViaRecursion.executor": "Run",
+    "Application.SelectionSort.executor": "Run",
+    "Application.SetBits.executor": "Run",
+    "Application.SingleSum.executor": "Run",
+    "Application.SkipACharacter.executor": "Run",
+    "Application.SkipAWord.executor": "Run",
+    "Application.SubSequence.executor": "Run",
+    "Application.SubSetExistOrNot.executor": "Run",
+    "Application.SubsetSum.executor": "Run",
+    "Application.SumOfElements.executor": "Run",
+    "Application.TwoSum.executor": "Run",
+    "Application.UniqueNum.executor": "Run",
+    "Application.h1.executor": "Run",
+    "Application.isPrime.executor": "Run",
+    "Application.javk.executor": "Run",
+    "Application.new.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/apswo/myCodes/DSA/DSA-Tuts/All_Programs",
+    "settings.editor.selected.configurable": "Errors"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Recursion.CombinationSum" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DigitProduct">
+    <configuration name="DigitProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.RecursionQuests.DigitProduct" />
+      <module name="All_Programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.RecursionQuests.Factorial" />
+      <module name="All_Programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseANumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.RecursionQuests.ReverseANumber" />
+      <module name="All_Programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="new" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="new" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DigitProduct" />
+        <item itemvalue="Application.new" />
+        <item itemvalue="Application.ReverseANumber" />
+        <item itemvalue="Application.Factorial" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6efd4fba-ff1d-4e54-a78d-e81537befdfa" name="Changes" comment="" />
+      <created>1722414452094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722414452094</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Recursion + Backtracking added">
+      <option name="closed" value="true" />
+      <created>1732736563942</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732736563942</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Recursion +Questions solved">
+      <option name="closed" value="true" />
+      <created>1733165756407</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733165756407</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Reformating">
+      <option name="closed" value="true" />
+      <created>1733313256672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733313256672</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Recursion + Backtracking added" />
+    <MESSAGE value="Recursion +Questions solved" />
+    <MESSAGE value="Reformating" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformating" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/RecursionQuests/P1.java</url>
+          <line>8</line>
+          <properties class="Recursion.RecursionQuests.P1" method="fun">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/RecursionQuests/Factorial.java</url>
+          <line>7</line>
+          <properties class="Recursion.RecursionQuests.Factorial" method="fact">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/LeetCode/Atoi.java</url>
+          <line>9</line>
+          <properties class="Recursion.LeetCode.Atoi">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/Intro/P1.java</url>
+          <line>9</line>
+          <properties class="Recursion.Intro.P1" method="fibbo">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-stack="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/RecursionQuests/DigitProduct.java</url>
+          <line>8</line>
+          <properties class="Recursion.RecursionQuests.DigitProduct" method="prod">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/LeetCode/Power_Sets_78.java</url>
+          <line>10</line>
+          <properties class="Recursion.LeetCode.Power_Sets_78" method="generateSubsets">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/backtracking/Ex2.java</url>
+          <line>60</line>
+          <properties class="Recursion.backtracking.Ex2" method="pathDirectionDiagonals">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/LeetCode/CountGoodNumbers.java</url>
+          <line>60</line>
+          <properties class="RecursionQuests.LeetCode.CountGoodNumbers">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/LeetCode/CountGoodNumbers.java</url>
+          <line>28</line>
+          <properties class="Recursion.LeetCode.CountGoodNumbers">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/LeetCode/RemoveDuplicates.java</url>
+          <line>18</line>
+          <properties class="Recursion.LeetCode.RemoveDuplicates" method="recursiveApproach">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/Arrays/ReverseString.java</url>
+          <line>4</line>
+          <properties class="Recursion.Arrays.ReverseString" method="reverse">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/Permutations/PermutationUsingRecursion.java</url>
+          <line>73</line>
+          <properties class="Recursion.Permutations.PermutationUsingRecursion" method="recursivePermute">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/CombinationSum/SingleSum.java</url>
+          <line>72</line>
+          <properties class="Recursion.CombinationSum.SingleSum" method="combinationSum1">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/Subset/SubsetSum.java</url>
+          <line>15</line>
+          <properties class="Recursion.Subset.SubsetSum" method="subsetSum1">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/CombinationSum/CombinationSum2.java</url>
+          <line>16</line>
+          <properties class="Recursion.CombinationSum.CombinationSum2" method="combinationSum2">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/CombinationSum/CombinationSum3.java</url>
+          <line>16</line>
+          <properties class="Recursion.CombinationSum.CombinationSum3" method="combinationSum3">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/Subset/SubSetExistOrNot.java</url>
+          <line>16</line>
+          <properties class="Recursion.Subset.SubSetExistOrNot" method="isSubsetExist">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/All_Programs$PermutationUsingRecursion.ic" NAME="PermutationUsingRecursion Coverage Results" MODIFIED="1730093783857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>RecursionQuests.Permutations.*</FILTER>
+    </SUITE>
+  </component>
+</project>
