@@ -1,4 +1,4 @@
-import java.util.*;
+package JavaBasics;
 
 public class j06Max {
     public static void main(String[] args) {

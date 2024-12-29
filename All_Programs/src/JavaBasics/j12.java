@@ -1,3 +1,5 @@
+package JavaBasics;
+
 import java.util.*;
 
 public class j12 {
@@ -62,36 +64,36 @@ public class j12 {
         System.out.println("Enter size of the array : ");
         int Size = sc.nextInt();
         String[] str = new String[Size];
-        
+
         System.out.println("Enter elements of the array : ");
-        
+
         for (int i = 0; i < str.length; i++) {
-        str[i] = sc.next();
+            str[i] = sc.next();
         }
-        
+
         System.out.println(Arrays.toString(str));
 
         // =============== 2-d Arrays
         // ================== Method 1 ======================
         int[][] arr2d = {
-        {1, 2},
-        {3, 4, 5},
-        {6, 7, 8, 9}
-        
+                {1, 2},
+                {3, 4, 5},
+                {6, 7, 8, 9}
+
         };
-        
+
         for (int row = 0; row < arr2d.length; row++) {
-        // inside the rows;
-        for (int col = 0; col < arr2d[row].length; col++) {
-        System.out.print(arr2d[row][col] + " ");
-        }
-        System.out.println();
+            // inside the rows;
+            for (int col = 0; col < arr2d[row].length; col++) {
+                System.out.print(arr2d[row][col] + " ");
+            }
+            System.out.println();
         }
 
         // // ====== Method 2 ====================
         // System.out.println("Enter the value of arrays : ");
         // int[][] arr2 = new int[3][3];
-        
+
         // for (int row = 0; row < arr2.length; row++) {
         // // inside the rows;
         // for (int col = 0; col < arr2[row].length; col++) {
@@ -99,7 +101,7 @@ public class j12 {
         // }
         // System.out.println();
         // }
-        
+
         // //output
         // for (int row = 0; row < arr2.length; row++) {
         // // inside the rows;
@@ -111,26 +113,26 @@ public class j12 {
 
         // ====== Method 3 ====================
         System.out.println("Enter the value of arrays : ");
-        int[][] arr3 = new int[3][3];
+        int[][] arr6 = new int[3][3];
 
-        for (int row = 0; row < arr3.length; row++) {
+        for (int row = 0; row < arr6.length; row++) {
             // inside the rows;
-            for (int col = 0; col < arr3[row].length; col++) {
-                arr3[row][col] = sc.nextInt();
+            for (int col = 0; col < arr6[row].length; col++) {
+                arr6[row][col] = sc.nextInt();
             }
             System.out.println();
         }
 
         // output Method 1
-        for (int row = 0; row < arr3.length; row++) {
-        // inside the rows;
-        System.out.println(Arrays.toString(arr3[row]));
-        }
-        output Method 2
-        for (int[] elements : arr3) {
-            // inside the rows;
-            System.out.println(Arrays.toString(elements));
-        }
+//        for (int row = 0; row < arr3.length; row++) {
+//            // inside the rows;
+////            System.out.println(Arrays.toString(arr7[row]));
+//        }
+//        output Method 2
+//        for (int[] elements : arr8) {
+//            // inside the rows;
+//            System.out.println(Arrays.toString(elements));
+//        }
 
     }
 }
