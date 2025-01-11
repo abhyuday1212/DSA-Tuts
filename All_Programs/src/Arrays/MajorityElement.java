@@ -1,4 +1,4 @@
-package Arrays.RotateArray;
+package Arrays;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package Arrays.RotateArray;
+package Arrays;
 
 public class findMissingNumber {
 }

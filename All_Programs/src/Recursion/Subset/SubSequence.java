@@ -17,10 +17,11 @@ public class SubSequence {
 //        subseq("", "jknjnwef");
 
         //-----------------
-//        System.out.println(subseqReturnArrayList("", "abc"));
+        System.out.println(subseqReturnArrayList("", "abc"));
 
         //        char ch = 'a';
 //        System.out.println(ch + 0);
+
 
 //        subseqAscii("", "abc");
 //        ArrayList<String> ans = subseqAsciReturnList("", "abc");
@@ -75,10 +76,10 @@ public class SubSequence {
 //        System.out.println(ans);
 
         // M-11
-        int[] orgArr = {1, 2, 2};
-        List<List<Integer>> ans11 = new ArrayList<>();
-        nonDuplicateSubsets(new ArrayList<>(), orgArr, 0, ans11);
-        System.out.println(ans11);
+//        int[] orgArr = {1, 2, 2};
+//        List<List<Integer>> ans11 = new ArrayList<>();
+//        nonDuplicateSubsets(new ArrayList<>(), orgArr, 0, ans11);
+//        System.out.println(ans11);
     }
 
     // M-1
@@ -98,6 +99,7 @@ public class SubSequence {
 
     }
 
+    // M-1-B
     static ArrayList<String> subseqReturnArrayList(String newStr, String originalStr) {
         if (originalStr.isEmpty()) {
             ArrayList<String> list = new ArrayList<>();

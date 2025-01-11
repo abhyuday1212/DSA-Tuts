@@ -5,17 +5,17 @@ import java.util.Arrays;
 public class CycleSort {
     public static void main(String[] args) {
         // range from 1 to n => use cycle sort
-        // jo abhi index h uspe current vallue -1 hona chahiye
+        // jo abhi index h uspe [current vallue] -1 hona chahiye
         // index = value-1 ==> At this index current value should be, If it is not present at the correct index than swap it with the correct index, now the number which came check weather that particular number is at correct position or not, If not then swap it to the correct index
 //        ==> After all this you make 0{n-1} in worst case
 //        => Check, Swap, Move
 
 //        =========================
         /*
-        - If range => [0,N}
+        - If range => [0,N} {0,1,2,3,4,5}
         * Every element will be at index = value;
 
-        -If range => [1,N]
+        -If range => [1,N] {1,2,3,4,5}
         * Every element will be at index = value -1;
 
         */

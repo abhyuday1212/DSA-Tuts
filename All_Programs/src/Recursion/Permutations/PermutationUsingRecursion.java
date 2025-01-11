@@ -10,16 +10,16 @@ public class PermutationUsingRecursion {
     public static void main(String[] args) {
 
 //        M - 2
-//        permutations("", "abc");
-//        ArrayList<String> ans = permutationsReturnArrayList("", "abc");
-//        System.out.println(ans);
+        permutations("", "abc");
+        ArrayList<String> ans = permutationsReturnArrayList("", "abc");
+        System.out.println(ans);
 
 
 //        // M-3
-        int[] values = {1, 2, 3};
-        List<Integer> myList = new ArrayList<>();
-        List<List<Integer>> ans3 = recursivePermute(myList, values, 0);
-        System.out.println(ans3);
+//        int[] values = {1, 2, 3};
+//        List<Integer> myList = new ArrayList<>();
+//        List<List<Integer>> ans3 = recursivePermute(myList, values, 0);
+//        System.out.println(ans3);
 
 
     }

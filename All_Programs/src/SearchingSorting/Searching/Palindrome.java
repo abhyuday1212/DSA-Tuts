@@ -18,7 +18,6 @@ public class Palindrome {
 
             if (start != end) {
                 return false;
-
             }
         }
 

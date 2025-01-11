@@ -1,4 +1,4 @@
-package SearchingSorting.Searching;
+package BinarySearch.Intro;
 
 public class j09BinarySearch {
     public static void main(String[] args) {

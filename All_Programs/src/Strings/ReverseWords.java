@@ -15,7 +15,6 @@ public class ReverseWords {
         }
 
         String finalString = String.join(" ", words);
-        finalString.trim();
 
         System.out.println(finalString);
 

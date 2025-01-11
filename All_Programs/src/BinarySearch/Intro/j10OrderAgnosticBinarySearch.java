@@ -1,4 +1,4 @@
-package SearchingSorting.Searching;
+package BinarySearch.Intro;
 
 public class j10OrderAgnosticBinarySearch {
     public static void main(String[] args) {
