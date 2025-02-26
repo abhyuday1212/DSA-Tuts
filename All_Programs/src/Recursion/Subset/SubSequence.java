@@ -9,6 +9,7 @@ package Recursion.Subset;
 // This will Always have two options either take it or ignore it.
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class SubSequence {
@@ -17,7 +18,7 @@ public class SubSequence {
 //        subseq("", "jknjnwef");
 
         //-----------------
-        System.out.println(subseqReturnArrayList("", "abc"));
+//        System.out.println(subseqReturnArrayList("", "abc"));
 
         //        char ch = 'a';
 //        System.out.println(ch + 0);
@@ -33,16 +34,15 @@ public class SubSequence {
 //        System.out.println(ans);
 
 
-        // Method-5
+        // Method-5: there is some issues here
 //        int[] myArr2 = {1, 2, 3};
-//        List<List<Integer>> ans2 = recusiveSubset(myArr2);
+//        List<List<Integer>> ans2 = recursiveSubset5(myArr2);
 //        System.out.println(ans2);
 
         // Method-6
-
 //        int[] myArr3 = {1, 2, 3};
 //        ArrayList<Integer> list = new ArrayList<>();
-//        List<List<Integer>> ans3 = recursiveSubset(list, myArr3, 0);
+//        List<List<Integer>> ans3 = recursiveSubset6(list, myArr3, 0);
 //        System.out.println(ans3);
 
         //M-7
@@ -80,8 +80,18 @@ public class SubSequence {
 //        List<List<Integer>> ans11 = new ArrayList<>();
 //        nonDuplicateSubsets(new ArrayList<>(), orgArr, 0, ans11);
 //        System.out.println(ans11);
+
+
+        //Method-12
+        // List<Integer> ds, int[] orgArr, int index, List<List<Integer>> ans
+        List<Integer> ds = new ArrayList<>();
+
+        int[] myArr12 = {1, 2, 3};
+        List<List<Integer>> finalAns12 = consequentSubset(ds, myArr12, 0, -1);
+        System.out.println(finalAns12);
     }
 
+    //----------------------------------- Answers -----------------
     // M-1
     static void subseq(String newStr, String originalStr) {
         if (originalStr.isEmpty()) {
@@ -167,13 +177,15 @@ public class SubSequence {
     // M-4
     static List<List<Integer>> subset(int[] arr) {
         List<List<Integer>> outer = new ArrayList<>();
+
         outer.add(new ArrayList<>());
 
-        for (int everyNum : arr) {
+        for (int i = 0; i < arr.length; i++) {
             int n = outer.size();
-            for (int i = 0; i < n; i++) {
-                List<Integer> internal = new ArrayList<>(outer.get(i));     //! internal will be the copy of outer.get(i)
-                internal.add(everyNum);
+            for (int j = 0; j < n; j++) {
+                //! internal will be the copy of outer.get(i)
+                List<Integer> internal = new ArrayList<>(outer.get(j));
+                internal.add(arr[i]);
                 outer.add(internal);
             }
         }
@@ -181,60 +193,60 @@ public class SubSequence {
         return outer;
     }
 
-    // M-5
-//    static List<List<Integer>> recusiveSubset(int[] arr) {
-//        List<List<Integer>> outer = new ArrayList<>();
-//        outer.add(new ArrayList<>());
-//        int index = 0;
-//        for (int everyNum : arr) {
-//            int n = outer.size();
-//
-//            // call a helper function, that whenever called will give the Array of small elements
-//
-//            List<Integer> smallAns = helperSubset(arr, outer, n, index, everyNum);
-////            outer.add(smallAns);
-//        }
-//
-//        return outer;
-//    }
-//
-//    static List<Integer> helperSubset(int[] arr, List<List<Integer>> outer, int n, int index, int everyNum) {
-//        if (n <= index) return new ArrayList<>();
-//
-//        // internal will have the copy of the just previous one, once the copy is created, will have the current iterating values of the variables
-//        List<Integer> internal = new ArrayList<>(outer.get(index));
-//
-//        internal.add(everyNum);
-//        outer.add(internal);
-//
-//        List<Integer> smallRecursiveAns = helperSubset(arr, outer, n, index + 1, everyNum);
-//
-//        smallRecursiveAns.addAll(internal);
-//
-//        return internal;
-//    }
+    // M-5: Something is wrong here
+    static List<List<Integer>> recursiveSubset5(int[] arr) {
+        List<List<Integer>> outer = new ArrayList<>();
+        outer.add(new ArrayList<>());
+        int index = 0;
+        for (int everyNum : arr) {
+            int n = outer.size();
 
-    // M-6
-    static List<List<Integer>> recursiveSubset(List<Integer> newArr, int[] orgArr, int index) {
+            // call a helper function, that whenever called will give the Array of small elements
+
+            List<Integer> smallAns = helperSubset(arr, outer, n, index, everyNum);
+//            outer.add(smallAns);
+        }
+
+        return outer;
+    }
+
+    static List<Integer> helperSubset(int[] arr, List<List<Integer>> outer, int n, int index, int everyNum) {
+        if (n <= index) return new ArrayList<>();
+
+        // internal will have the copy of the just previous one, once the copy is created, will have the current iterating values of the variables
+        List<Integer> internal = new ArrayList<>(outer.get(index));
+
+        internal.add(everyNum);
+        outer.add(internal);
+
+        List<Integer> smallRecursiveAns = helperSubset(arr, outer, n, index + 1, everyNum);
+
+        smallRecursiveAns.addAll(internal);
+
+        return internal;
+    }
+
+    // M-6: This is correct
+    static List<List<Integer>> recursiveSubset6(List<Integer> ds, int[] orgArr, int index) {
         if (index == orgArr.length) {
             List<List<Integer>> baseResult = new ArrayList<>();
-            baseResult.add(new ArrayList<>(newArr)); // Add a copy of newArr
+            baseResult.add(new ArrayList<>(ds)); // Add a copy of newArr
             return baseResult;
         }
 
 
         //----implement take not take method, Recursion need to do two things, once it need to calculate values when it has taken the characters
         // Now the question is what is the self work that we need to do
-        // * The self work is to calculate at every index the element it is iterating and then passing the current index as a parameter on the further recursion calls.
-        List<Integer> takenArr = new ArrayList<>(newArr);
-        takenArr.add(orgArr[index]);
-        List<List<Integer>> takenAns = recursiveSubset(takenArr, orgArr, index + 1);
+        // * The self work is to add the current element into the ds so that it is iterating and then passing the incremented index as a parameter on the further recursion calls.
 
-        List<List<Integer>> notTakenAns = recursiveSubset(newArr, orgArr, index + 1);
+        ds.add(orgArr[index]); //adding the current element to the ans list, ex: [1,2,3]
+        List<List<Integer>> takenAns = recursiveSubset6(ds, orgArr, index + 1);
+        ds.remove(ds.size() - 1);
+
+        List<List<Integer>> notTakenAns = recursiveSubset6(ds, orgArr, index + 1);
 
         takenAns.addAll(notTakenAns);
         return takenAns;
-
     }
 
     //M-7
@@ -358,7 +370,6 @@ public class SubSequence {
     // Method-11
     //subset-2
     // Leetcode#90
-
     /*
      * Given an integer array nums that may contain duplicates, return all possible subsets (the power set). The solution set must not contain duplicate subsets. Return the solution in any order.
      */
@@ -372,8 +383,6 @@ public class SubSequence {
 
             ds.add(orgArr[i]);
 
-//            System.out.println(orgArr[i]);
-
             // ! index i is already equal to index, so why here index + 1 didnt work?
             nonDuplicateSubsets(ds, orgArr, i + 1, ans);
 
@@ -381,6 +390,55 @@ public class SubSequence {
 //            System.out.println(ds);
 
         }
+    }
+
+    //Method-12
+    static List<List<Integer>> consequentSubset(List<Integer> ds, int[] orgArr, int index, int lastIndex) {
+        List<List<Integer>> ans = new ArrayList<>();
+        if (!ds.isEmpty()) {
+            System.out.println(ds);
+            ans.add(new ArrayList<>(ds));
+        }
+
+        if (index == orgArr.length) {
+            return ans;
+        }
+
+        for (int i = index; i < orgArr.length; i++) {
+            if (!ds.isEmpty() && lastIndex != i - 1) {
+                continue;
+            }
+
+            ds.add(orgArr[i]);
+
+            // ! index i is already equal to index, so why here index + 1 didnt work?
+            List<List<Integer>> halfAns = consequentSubset(ds, orgArr, i + 1, i);
+            ds.remove(ds.size() - 1);
+
+            ans.addAll(halfAns);
+        }
+
+        return ans;
+
+    }
+
+    //    M-13
+    private static void generateSubsetsHelper(int[] nums, int index, List<Integer> current, List<List<Integer>> result) {
+        // Base case: if we've processed all elements, add the current subset to result.
+        if (index == nums.length) {
+            result.add(new ArrayList<>(current));
+            return;
+        }
+
+        // Recursive step 1: include the current element
+        current.add(nums[index]);
+        generateSubsetsHelper(nums, index + 1, current, result);
+
+        // Backtrack: remove the current element before exploring the next possibility
+        current.remove(current.size() - 1);
+
+        // Recursive step 2: do not include the current element
+        generateSubsetsHelper(nums, index + 1, current, result);
     }
 
 }
