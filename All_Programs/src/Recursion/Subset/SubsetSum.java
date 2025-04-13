@@ -23,13 +23,11 @@ public class SubsetSum {
 
         //take
         ds.add(orgArr[index]);
-        sum += orgArr[index];
-        subsetSum1(ds, orgArr, index + 1, ans, sum);
+
+        subsetSum1(ds, orgArr, index + 1, ans, sum + orgArr[index]);
 
         //remove the elements that you modified
         ds.remove(ds.size() - 1);
-        sum = sum - orgArr[index];
-
 
         //not-take
         subsetSum1(ds, orgArr, index + 1, ans, sum);
