@@ -20,7 +20,7 @@ public class SortHashMap {
 
         //Sort the List
         // This Method of sorting was failing for extremely large integer
-        list.sort((ob1, ob2) -> mp.get(ob2) - mp.get(ob1));
+//        list.sort((ob1, ob2) -> mp.get(ob2) - mp.get(ob1));
 
         list.sort((ob1, ob2) -> Integer.compare(mp.get(ob2), mp.get(ob1)));
 
